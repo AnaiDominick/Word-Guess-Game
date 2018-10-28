@@ -1,0 +1,116 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/background.jpg");
+    margin-bottom: 0px;
+    bottom: 0px;
+
+}
+
+#title {
+    width: 438px;
+    height: 220px;
+    object-fit: cover;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mtv {
+    width: 160px;
+    height: 110px;
+    object-fit: cover;
+    display: block;
+    margin-left: -50%;
+    margin-right: auto;
+    margin-top: 20px;
+
+}
+
+#prince {
+    width: 316px;
+    height: 237px;
+    object-fit: cover;
+    transform: rotate(20deg);
+    margin-left: -10px;
+}
+
+.container {
+    background-color: blanchedalmond;
+    margin-top: 20px;
+}
+
+.col-sm-6 {
+    border: 4px dotted blue;
+}
+
+p {
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+div {
+    text-align: center;
+    font-size: 18px;
+}
+
+
+ /* Media */
+
+ @media screen and (max-width: 980px){
+    body{
+        margin: auto;
+    }
+    .container {
+        width: 780px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    body {
+        width: 100%;
+    }
+    .container{
+        width: 668px;
+    }
+    #prince {
+        width:158px;
+        height: 118px;
+    }
+    #mtv {
+        width: 80px;
+        height: 55px;
+    }
+    #title{
+        width: 219px;
+        height: 110px; 
+    }
+
+}
+
+@media screen and (max-width: 640px){
+    body {
+        width: 100%;
+    }
+    .container{
+        width: 540px;
+    }
+    #prince {
+        width:79px;
+        height: 59px;
+    }
+    #mtv {
+        width: 68px;
+        height: 46px;
+    }
+    #title{
+        width: 109px;
+        height: 55px; 
+    }
+}

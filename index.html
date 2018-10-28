@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hangman</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+
+<body>
+
+<nav>
+
+    <div class="row">
+            <div class="col-sm-2">
+                    <img id="prince" src="assets/images/prince.png" alt="image">
+            </div>
+
+            <div class="col-sm-8">
+                    <img id="title" src="assets/images/love_90s.png" alt="image">
+            </div>
+
+            <div class="col-sm-2">
+                    <img id="mtv" src="assets/images/mtv.png" alt="image">
+            </div>            
+    </div>
+
+</nav>
+
+<div class="container">
+        <div class="row">
+                <div class="col-sm-6"> 
+                        <p>
+                        Hint: <div id = "hint-text"> </div>
+                        </p>
+
+                </div>
+
+                <div class="col-sm-6">
+                        <p>
+                        Press any key to get started!
+                        </p>
+
+                        <p>
+                        Wins: <div id = "wins-text"></div>
+                        </p>
+
+                        <p>
+                        Losses: <div id = "losses-text"></div>
+                        </p>
+
+                        <p>
+                        Current Word: <div  id= "currentWord-text"></div>
+                        </p>
+                        
+
+                        <p>
+                        Number of Guesses Remaining: <div id ="lives-text"></div>
+                        </p>
+
+                        <p>
+                        Letters Already Guessed: <div id = "soFar-text"></div>
+                        </p>
+
+                </div>
+        </div>
+
+</div>
+
+
+
+<script type="text/javascript" src="assets/javascript/game2.js"></script>
+</body>
+</html>
